@@ -2,19 +2,16 @@
 Project Title: Business vs. Weather Consumner Sentiment Analysis:
 
 Team Members:
-
 Tyler Guo
 Oliver Brouard
 CharlesFortuno
 Jason Dickey
 
 Project Description/Outline: 
-
 By studying weather trends in 5 major cities with varying climates we’d like to analyze effects on sales of varying companies 
 i.e restaurants, retail etc. along side consumer sentiment and purchasing trends
 
 Description of the scope of our research:
-
 We will access various APIs to get weather, ratings, travel etc. data based on various months.
 Do sentiment analysis of these reviews and trends on a monthly basis to see how weather can effect consumers reviews or purchase trends.
 
@@ -40,7 +37,7 @@ http://api.wunderground.com/api/
 Public company's fincial reportings
 Other Google APIs if necessary
 
-Rough Breakdown of Tasks:
+Rough Breakdown of Tasks:<br/>
 Determine most reviewed business types
 Gather yelp data on varying businesses: restaurants, airlines, clubs etc.
 Aggregate weather data through time (month by monthy) for various geos
