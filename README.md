@@ -3,10 +3,10 @@ Project Title:<br/>
 Business vs. Weather Consumner Sentiment Analysis:
 
 Team Members:<br/>
-Tyler Guo
-Oliver Brouard
-CharlesFortuno
-Jason Dickey
+Tyler Guo<br/>
+Oliver Brouard<br/>
+CharlesFortuno<br/>
+Jason Dickey<br/>
 
 Project Description/Outline:<br/> 
 By studying weather trends in 5 major cities with varying climates we’d like to analyze effects on sales of varying companies 
