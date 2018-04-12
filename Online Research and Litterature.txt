@@ -1,0 +1,54 @@
+
+Interesting litterature and online links:
+---------------------------
+
+https://medium.com/@tenzoinc/how-does-weather-affect-restaurant-sales-f723a2d4e156
+
+https://yelp-with-weather.herokuapp.com/
+
+Yelp distribution of reviews by business type, restaurant comes second:
+https://www.yelp.com/factsheet
+
+how does weather affect human behavior and mood on sales:
+https://www.tandfonline.com/doi/abs/10.1080/15378020.2016.1209723?journalCode=wfbr20
+
+does weather impact restaurant businesses?
+https://upserve.com/restaurant-insider/5-on-friday-does-weather-impact-restaurants/
+
+---------------------------
+
+report facts from previous online research and analysis:
+the restaurant industry tends to thrive during the summer or warm months. Due in increase in tourism
+warmer temperature typically encourage locals and visitors to spend time outdoor, leading to an increase in business
+
+winter months can have a negative impact on restaurants ability to thrisve
+during cold winter months custumers might feel less compelled to travel for restaurants for a meal
+some restaurant owners anticipate a drop in sales during the winter moths and exhast their marketing effort during the busy season to compensate
+specials are thus encouraged during the decline period to attract customers
+the volume might compensate the losse of money giving away free items
+
+---------------------------
+
+Open Weather Map API (example to retrieve historical data from a specific time range)
+API call:
+http://history.openweathermap.org/data/2.5/history/city?id={id}&type=hour&start={start}&end={end}
+
+---------------------------
+
+Example of API response:
+
+{"coord":
+{"lon":145.77,"lat":-16.92},
+"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],
+"base":"cmc stations",
+"main":{"temp":293.25,"pressure":1019,"humidity":83,"temp_min":289.82,"temp_max":295.37},
+"wind":{"speed":5.1,"deg":150},
+"clouds":{"all":75},
+"rain":{"3h":3},
+"dt":1435658272,
+"sys":{"type":1,"id":8166,"message":0.0166,"country":"AU","sunrise":1435610796,"sunset":1435650870},
+"id":2172797,
+"name":"Cairns",
+"cod":200}
+https://openweathermap.org/history
+
