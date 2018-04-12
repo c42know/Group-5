@@ -1,6 +1,7 @@
 # Group-5
-Project Title:<br/>
-Business vs. Weather Consumner Sentiment Analysis:
+Team 5:<br/>
+Public Transit vs. Weather Consumer Sentiment Analysis<br/>
+7th April 2018
 
 Team Members:<br/>
 Tyler Guo<br/>
@@ -8,39 +9,25 @@ Oliver Brouard<br/>
 CharlesFortuno<br/>
 Jason Dickey<br/>
 
-Project Description/Outline:<br/> 
-By studying weather trends in 5 major cities with varying climates we’d like to analyze effects on sales of varying companies 
-i.e restaurants, retail etc. along side consumer sentiment and purchasing trends
+GOAL
+To explain the effect of weather on consumer sentiment of Public Transit via twitter.<br/>
 
-Description of the scope of our research:<br/>
-We will access various APIs to get weather, ratings, travel etc. data based on various months.
-Do sentiment analysis of these reviews and trends on a monthly basis to see how weather can effect consumers reviews or purchase trends.
+PROJECT DESCRIPTION
+We all know that weather changes our mood and specific attributes of our personality. No one is ever happy riding public transit! We will look into how weather impacts how people feel about public transit.
 
-Research Questions to Answer:<br/>
-1. How much does weather impact consumer sentiment of various companies and their services i.e airlines, restaurants, tourism?
-2. How does climate impact sales of specific products i.e jackets, tires, hamburgers?
-3. Does sentiment and sales change depending on the city's general climate i.e rainy like Seattle?
-4. Variables: Climate Type, City Type, Sales of cities: Large cities- SF, Miami, Seattle; International city
-5. How does weather impact consumer sentiment on a month by month basis
+RESEARCH: QUESTIONS TO ANSWER<br/>
+How often does weather affect customer tweets about public transit?
+How does overall sentiment differ across cities?
+How is sentiment impacted by weather? How is tweet volume impacted?
 
-5 Cities that represent different climate types (rainy, sunny, cold):<br/>
-San Francisco, CA
-Hilo, HI
-Chicago, IL
-Miami, FL
-Las Vegas, NV
+DATA SETS<br/>
+We will use the Open Weather Map API to retrieve weather data for our selected cities. We will leverage Twitter API to gather tweet data on various mass transits (@APTA_Transit (DC), @BART (SF), @MTA (NYC), @CTA (chicago), @MARTA (atlanta), @RTC (LV) )
 
-Data Sets to be Used:<br/>
-API to collect number of flights: https://skyscanner.github.io/slate/?_ga=1.104705984.172843296.1446781555#api-documentation (may be used for airline companies or find tourist rates/travel rates in and out of these cities.
-https://www.yelp.com/developers
-https://openweathermap.org/api
-http://api.wunderground.com/api/
-Public company's fincial reportings
-Other Google APIs if necessary
-
-Rough Breakdown of Tasks:<br/>
-Determine most reviewed business types
-Gather yelp data on varying businesses: restaurants, airlines, clubs etc.
-Aggregate weather data through time (month by monthy) for various geos
-Gather earnings reports or other sales data for public companies
-Compare trends for these variables
+ROUGH BREAKDOWN OF TASKS<br/>
+Milestone #1: Compile Data
+Compile list of cities to analyze
+Identify mass transit twitter accounts of aforementioned cities
+Compile all tweet data (last year)
+Milestone #2: Analysis
+Use vader analysis 
+Create charts and plots to depict how businesses are affected by weather and other external factors
