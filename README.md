@@ -15,7 +15,7 @@ To explain the effect of weather on consumer sentiment of Public Transit via twi
 PROJECT DESCRIPTION:<br/>
 We all know that weather changes our mood and specific attributes of our personality. No one is ever happy riding public transit! We will look into how weather impacts how people feel about public transit.
 
-RESEARCH: 
+RESEARCH:<br/>
 QUESTIONS TO ANSWER<br/>
 How often does weather affect customer tweets about public transit?
 How does overall sentiment differ across cities?
